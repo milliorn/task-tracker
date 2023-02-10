@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "git-fetch-pull": "git fetch && git pull",
+    "server": "json-server --watch db.json --port 5000",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
