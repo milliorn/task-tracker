@@ -4,3 +4,7 @@ header {
   align-items: center;
   margin-bottom: 1.25rem;
 }
+
+h1 {
+  text-transform: capitalize;
+}
