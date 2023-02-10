@@ -2,6 +2,7 @@
   "name": "task-tracker",
   "version": "0.0.0",
   "scripts": {
+    "git-fetch-pull": "git fetch && git pull",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
