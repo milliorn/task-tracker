@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "git-fetch-pull": "git fetch && git pull",
+    "server": "json-server --watch db.json --port 5000",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -24,6 +25,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "json-server": "^0.17.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
