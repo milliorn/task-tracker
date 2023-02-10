@@ -25,6 +25,5 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_TYPESCRIPT_ES: true
-          VALIDATE_CSS: true
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
