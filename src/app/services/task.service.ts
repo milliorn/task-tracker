@@ -19,4 +19,8 @@ export class TaskService {
     const url = `${this.apiUrl}/${task.id}`;
     return this.http.delete<Task>(url);
   }
+
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+  }
 }
