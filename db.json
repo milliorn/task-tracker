@@ -17,6 +17,12 @@
       "text": "Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Concert",
+      "day": "May 8th at 7:30pm",
+      "reminder": false
     }
   ]
 }
