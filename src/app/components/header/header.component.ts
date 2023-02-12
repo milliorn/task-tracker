@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 
 import { UiService } from 'src/app/services/ui.service';
@@ -14,10 +15,19 @@ export class HeaderComponent {
   showAddTask: boolean = false;
   subscription: Subscription;
 
-  constructor(private uiService: UiService, private router: Router) {
+  constructor(
+    private uiService: UiService,
+    private router: Router,
+    private meta: Meta
+  ) {
     this.subscription = this.uiService
       .onToggle()
       .subscribe((value) => (this.showAddTask = value));
+
+    this.meta.addTag({
+      name: 'description',
+      content: 'Task Tracker Web App made with Angular',
+    });
   }
 
   toggleAddTask(): void {

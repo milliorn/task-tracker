@@ -1,7 +1,8 @@
-.task h3 {
+.task span {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 .task {
