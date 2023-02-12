@@ -20,11 +20,11 @@ export class HeaderComponent {
       .subscribe((value) => (this.showAddTask = value));
   }
 
-  toggleAddTask() {
+  toggleAddTask(): void {
     this.uiService.toggleAddTask();
   }
 
-  hasRoute(route: string) {
+  hasRoute(route: string): boolean {
     return this.router.url === route;
   }
 }
