@@ -29,3 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## ng commands
 
 <https://angular.io/cli>
+
+## Test Local Server
+
+`npm run server` then `npm run watch` and then `npm run start`.
