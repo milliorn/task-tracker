@@ -4,12 +4,17 @@
   "scripts": {
     "git-fetch-pull": "git fetch && git pull",
     "server": "json-server --watch db.json --port 5000",
+    "analytics-prompt": "ng analytics prompt",
+    "build": "ng build",
+    "deploy": "ng deploy",
+    "help": "ng doc --help",
+    "lint": "ng lint task-tracker",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "analytics-prompt": "ng analytics prompt"
+    "update": "ng update",
+    "version": "ng version",
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
