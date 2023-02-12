@@ -1,4 +1,4 @@
 <footer>
   <p>Copyright {{ copyright }}</p>
-  <a class="footer-link" routerLink="/about">About</a>
+  <a *ngIf="hasRoute('/about')" class="footer-link" routerLink="/about">About</a>
 </footer>
